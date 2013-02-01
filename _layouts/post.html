@@ -1,7 +1,11 @@
 ---
 layout: main
 ---
-
+{% assign author = site.authors[page.author] %}
+<div style='float: right; width: 200px; text-align: right;'>
+<img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40"><br />
+<span class="author">{{ author.display_name }}</span>
+</div>
 <h2>{{ page.title }}</h2>
 <br />
 {{ content }}

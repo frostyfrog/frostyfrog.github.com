@@ -1,3 +1,14 @@
 safe: false
-auto: false
-server: false
+auto: true
+server: true
+
+authors:
+  colton:
+    display_name: Frostyfrog
+    gravatar: 91607c633da86ad59089dba9a66dceb9
+    email: frostyfrog2@gmail.com
+    web: http://frostyfrog.github.com/
+    twitter: frostyfrog2
+    github: frostyfrog
+
+# vim: set et ai sw=2 ts=2 :
