@@ -153,6 +153,14 @@ blockquote {
   border-left: 1px dotted #666;
 }
 
+code {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #b58853;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
 pre {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -165,6 +173,12 @@ pre {
   text-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
+}
+
+pre code {
+  background: rgba(0, 0, 0, 0.9);
+  border: 0px;
+  color: #b5e853;
 }
 
 table {
