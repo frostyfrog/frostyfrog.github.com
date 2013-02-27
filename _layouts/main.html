@@ -4,7 +4,7 @@
 <meta charset='utf-8' />
 <link rel='stylesheet' type='text/css' href='/stylesheets/stylesheet.css' media='screen' />
 <link rel='stylesheet' type='text/css' href='/stylesheets/pygment_trac.css' media='screen' />
-<title>Frostyfrog's Blog</title>
+<title>{% if page.title != "main" %}{{ page.title }} - {% endif %}Frostyfrog's Blog</title>
 </head>
 <body>
 <header>
