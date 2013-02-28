@@ -38,12 +38,22 @@ If you noticed the tag `<subItem var="1">`, you may have wondered what I did the
 
 Now, that just about covers XML. I hope that was a good enough explanation. Now, on to the structure of HTML.
 
+*Edit: I was talking to [Lothus Marque][LM] and they stated the following.*
+> **(19:13:17) Lothus Marque: I would have said XML was based on HTML, just with a far more rigorous structure requirement.   It came later, after all.**
+
+> (19:14:50) frostyfrog: Ah, well. That's new to me.   I'm self taught, so I assumed HTML was based off of XML since XML seems way more lax on what tags you use. As I said in there though, I prefer XHTML 1.0 Strict doctype.
+
+> (19:15:29) frostyfrog: Seems to work nearly everywhere.
+
+> **(19:15:58) Lothus Marque: They've got different intents. HTML was, and is, a generalized markup language. XML has far more strict requirements on tagging, and is better suited for structured data. XHTML, though they're still dealing with XHTML5 as part of HTML5, is not really the way most people recommend that I've seen any more. XHTML showed up in the "XML IS GOD AND EVERYTHING" phase. :/**
+
+[LM]: http://www.mercenary-enclave.com/ (The website of Lothus Marque)
 HTML
 ----
 
 Now that we have XML out of the way, it is time to move on to HTML. First thing that we need to specify, is the DOCTYPE (Short for *Document Type*) tag. The DOCTYPE tag informs the browser how to handle the web page.
 If we didn't tell the browser how to handle the web page, it would look different in between browsers. There wouldn't be a fluid experience for the user, except for those who are using the exact same web browser (Internet Explorer, Google Chrome, Firefox, Opera, etc.) that you are using.
-There are [Multiple Different Doctype Declarations](http://www.w3.org/QA/2002/04/valid-dtd-list.html) available, but for the most part, I prefer to stick with XHTML 1.0 Strict.
+There are [Multiple Different Doctype Declarations](http://www.w3.org/QA/2002/04/valid-dtd-list.html) available, but for the most part, I prefer to stick with XHTML 1.0 Strict. In later tutorials, I might switch to the new (HTML5) spec.
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
